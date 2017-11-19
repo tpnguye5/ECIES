@@ -1,0 +1,29 @@
+ECIES
+ENCIS functional diagram
+encrypted file = ecies_encrypt(target PK, data)
+
+p_B = s_B * G
+
+SECP256rl
+SECP256kl
+generate a public key and private key to encrypt a file
+use
+
+take a look at ECC toy
+
+curve and then two supporting files
+encryption shashapoly
+
+
+read file
+
+ecies_ecrypt(public_key, data)
+
+encis_decrypt(secret_key, data)
+-efemeral key = data from 0 to 32 [0:32]
+
+design assignment
+
+
+AES-SIV
+ChaCha_Poly_AEAD
