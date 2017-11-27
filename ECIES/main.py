@@ -108,6 +108,7 @@ def ecies_encryption(target_pub_key, file):
 #Cipher text includes: U + IV + ciphertext + tag (look at presentation)
 def encis_decryption(sender_public_key, tag, cipher_text, infile):
     #with the public key and his private key, v, Bob will multiply both elements in order to produce the shared secret value
+    #???
     empheral_key_pair = KeyPair()
     shared_secret_value = sender_public_key * empheral_key_pair.private
 
